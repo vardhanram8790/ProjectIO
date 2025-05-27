@@ -155,6 +155,7 @@ const Dashboard = () => {
     navigate("/LiveCount", { state: { categoryID, locationId } });
   };
 
+  console.log("hello");
 
   if (loading) {
     return (
